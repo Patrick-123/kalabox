@@ -4,7 +4,7 @@ FROM kalabox/debian
 
 # Install Drush & dependencies
 RUN \
-  apt-get install -y mysql-client php5-cli php5-dev php5-gd php5-mcrypt php5-mysqlnd curl git sqlite && apt-get clean
+  apt-get install -y mysql-client php5-cli php5-dev php5-gd php5-mcrypt php5-mysqlnd php5-sqlite curl git sqlite && apt-get clean
 
 # Install Composer
 RUN \
